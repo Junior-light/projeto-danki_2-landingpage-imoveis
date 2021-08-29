@@ -149,21 +149,34 @@ section .cover-form{
 /*mosaico*/
 .flex-mosaico{
     display: flex;
+    justify-content: space-between;
     margin: 2px 0;
 }
 
+.item-1-mosaico p{
+    font-size: 19px;
+    font-weight: bolder;
+    color: rgb(58, 58, 58);
+}
+
 .item-1-mosaico{
-    width: 40%;
+    width: 30%;
     padding-inline: 1%;    
     padding-top: 1%;
     border-right: 2px solid white;
+}
+
+.item-1-mosaico p{
+    font-size: 27px;
+    font-weight: bolder;
 }
 
 .item-2-mosaico{
     width: 60%;
     padding-top: 15%;
     padding-bottom: 5%;
-    padding-inline: 5%;    
+    padding-inline: 5%;
+    /*margin-left: 10%;*/    
     transition: 1s;
     background-position: center;
     background-size: cover;
@@ -179,15 +192,11 @@ section .cover-form{
 }
 
 .item-2-mosaico:hover{
+    width: 70%;
     padding-top: 20%;
+    /*margin-left: 0;*/
     font-size: 35px;
     transition: 1s;
-}
-
-.item-1-mosaico p{
-    font-size: 19px;
-    font-weight: bolder;
-    color: rgb(58, 58, 58);
 }
 
 footer{
@@ -215,11 +224,14 @@ footer img{
         border: 0;
     }
     .item-2-mosaico{
-        /*height: 200px;*/
-        width: 100%;
+        min-width: 100%;
         padding-top: 190px;
         margin: 0;
         border: 0;
+    }
+
+    .item-2-mosaico:hover{
+        padding-top: 220px;
     }
 }
 
@@ -252,8 +264,18 @@ footer img{
         float: none;
     }
 
+    /*mosaico*/
+
     .item-1-mosaico{
-        height: 80px;
+        height: 90px;
     }
 
+    .item-2-mosaico{
+        min-width: 100%;
+    }
+
+    .item-2-mosaico:hover{
+        padding-top: 60%;
+    }
+    /*fim mosaico*/
 }
