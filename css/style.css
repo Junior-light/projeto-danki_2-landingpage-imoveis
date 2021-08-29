@@ -170,6 +170,10 @@ section .cover-form{
     font-size: 19px;
     font-weight: bolder;
     color: white;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 5px;
 }
 
 .item-1-mosaico p{
