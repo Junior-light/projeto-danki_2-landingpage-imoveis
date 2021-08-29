@@ -119,7 +119,7 @@ section .cover-form{
     font-weight: bold;
 }
 
-/************/
+/*fim formulário*/
 
 /*chamada*/
     
@@ -238,7 +238,7 @@ footer img{
 @media screen and (max-width: 550px){
 
     .center{
-        padding: 0;
+        padding: 0 3%;
     }
 
     header{
@@ -256,13 +256,15 @@ footer img{
     }
  
     .bg{
-        width: 100%;
-        padding: 10px 15%;
+        padding: 5px 3%;
     }
 
+    /*formulário*/
     .form-container{
         float: none;
-    }
+        width: 100%;
+    }   
+    /*fim formulário*/
 
     /*mosaico*/
 
