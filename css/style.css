@@ -99,22 +99,24 @@ section .cover-form{
     line-height: 45px;
     padding-left: 10px;
     border: 2px solid rgba(100, 100, 100);
+    border-radius: 5px;
 }
 
 .form-container form input[type=submit]{
     height: 45px;
     width: 100%;
-    background-color: #033c50;
+    font-size: 23px;
+    background-color: #033c50bb;
     text-transform: uppercase;
     color: white;
     cursor: pointer;
-    border: 0;
+    border: 2px solid #033c50;
+    border-radius: 5px;
 }
 
 .form-container form input[type=submit]:hover{
-    background-color: #033c50bb;
+    background-color: #033c50;
     font-weight: bold;
-    border: 2px solid #033c50;
 }
 
 /************/
